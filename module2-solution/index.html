@@ -7,7 +7,7 @@
 </head>
 <style>
 p {
-  border: 1px solid black;
+  color: darkblue;
   background-colot: lightgray;
 }
 
@@ -15,13 +15,35 @@ p {
   width: 100%;
 }
 
-@media (min-width: 992px) {
-
+@media (min-width: 992px) { .col-lg-4 {
+  float: left;
+  border: 2px solid gray;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-
+                                                                   
+@media (min-width: 768px) and (max-width: 991px) { .col-md-6, .col-md-12 {
+  float: left;
+  border: px solid gray;                                                                
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
 }
-@media (max-width: 767px) {
+                                                                   
+@media (max-width: 767px) { .col-sm-12 {
+  float: left;
+  border: 2px solid gray;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
 
 }
                                                                    
@@ -29,9 +51,9 @@ p {
 <body>
 <h1?Our Menu</h1>                                                           
 <div class="row">
-<p>CICERO saith, that to Philosophise is no other thing than for a man to prepare himselfe to death: which is the reason that studie and contemplation doth in some sort withdraw our soule from us, and severally employ it from the body, which is a kind of apprentisage and resemblance of death; or else it is, that all the wisdome and discourse of the world, doth in the end resolve upon this point, to teach us not to feare to die.<p>
-<p>Truly either reason mockes us, or it only aimeth at our contentment, and in fine, bends all her travell to make us live well, and as the holy Scripture saith, “at our ease.”<p>
-<p>All the opinions of the world conclude, that pleasure is our end, howbeit they take divers meanes unto and for it, else would men reject them at their first coming. For who would give eare unto him, that for it’s end would establish our paine and disturbance? The dissentions of philosophicall sects in this case are verbal: Transcurramus solertissimas nugas; 1 “Let us run over such over-fine fooleries and subtill trifles.”</p>
+  <div class="col-lg-4 col-md-6 col-md-12 col-sm-12><p>CICERO saith, that to Philosophise is no other thing than for a man to prepare himselfe to death: which is the reason that studie and contemplation doth in some sort withdraw our soule from us, and severally employ it from the body, which is a kind of apprentisage and resemblance of death; or else it is, that all the wisdome and discourse of the world, doth in the end resolve upon this point, to teach us not to feare to die.<p></div>
+  <div class="col-lg-4 col-md-6 col-md-12 col-sm-12><p>Truly either reason mockes us, or it only aimeth at our contentment, and in fine, bends all her travell to make us live well, and as the holy Scripture saith, “at our ease.”<p></div>
+  <div class="col-lg-4 col-md-6 col-md-12 col-sm-12><p>All the opinions of the world conclude, that pleasure is our end, howbeit they take divers meanes unto and for it, else would men reject them at their first coming. For who would give eare unto him, that for it’s end would establish our paine and disturbance? The dissentions of philosophicall sects in this case are verbal: Transcurramus solertissimas nugas; 1 “Let us run over such over-fine fooleries and subtill trifles.”</p></div>
 </div>
 </body>
 
